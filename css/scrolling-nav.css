@@ -13,15 +13,7 @@ section {
 
 img {
   padding: 15px;
-}
-
-div {
   width: auto;
-
+  margin: auto;
 }
 
-img
-{
-   width: auto;
-   margin: auto;
-}
