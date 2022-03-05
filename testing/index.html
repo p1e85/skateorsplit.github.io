@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Stream Team Testing</title>
+    <title>Stream Team Testing - home</title>
 
     <link href="https://getbootstrap.com/docs/5.1/examples/album/" rel="canonical">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -53,20 +53,34 @@
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">The Stream Team</h1>
         <p class="lead" style="color:#fefbd8;">Welcome to our Stream Team website, I hope you enjoy what you see here and support our whole team?!</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Featured Streamer</a>
+        
+          <a href="#" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#featuredModal">Featured Streamer</a>
+
+	    <!-- The Modal -->
+	    <div class="modal" id="featuredModal">
+  	      <div class="modal-dialog">
+    		<div class="modal-content">
+
+      			<!-- Modal Header -->
+      			<div class="modal-header">
+        		  <h4 class="modal-title" style="color:#36486b;">Feautured Streamer</h4>
+        		  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      			</div>
+
+      			<!-- Modal body -->
+      			<div class="modal-body">
+				<h1 style="color:#36486b;">content here</h1>
+      			</div>
+
+    		  </div>
+  		</div>
+	     </div>
+
           <a href="#" class="btn btn-secondary my-2" onclick="window.location.href='friends.html'">Friend's Streams</a>
-        </p>
+        
       </div>
     </div>
   </section>
-
-<!--- modal start -->
-
-
-
-
-<!-- modal end -->
 
   <div class="album py-5" style="background-color:#36486b;">
     <div class="container">
@@ -88,7 +102,7 @@
               <p class="card-text" style="color:#fefbd8;">🎮 PC Gamer - 🤬 RAGE-A-LOT - 🎂 28 years old - 🇨🇦 French Canadian - Living in USA 🇺🇲 - ✊ Native American ✊</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
 
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#daddyModal">Socials</button>
 
@@ -141,7 +155,7 @@
               <p class="card-text" style="color:#fefbd8;">City of Chicago born and raised, I always skateboarded in the early 90s, but didn't really go hardcore until 1999.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#p1Modal">Socials</button>
 
 	    <!-- The Modal -->
@@ -193,7 +207,7 @@
               <p class="card-text" style="color:#fefbd8;">Gamer traveler, and content creator! The name is KralkenG and I am a variety streamer but a huge lover of MMO's.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#kralkModal">Socials</button>
 
 	    <!-- The Modal -->
@@ -247,7 +261,7 @@
               <p class="card-text" style="color:#fefbd8;">sup everyone, my name is Alex AKA Caspro, i'm a variety streamer but i do play alot of dead by daylight.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#casModal">Socials</button>
 
 	    <!-- The Modal -->
@@ -300,7 +314,7 @@
               <p class="card-text" style="color:#fefbd8;">Hey. I am Alen. I am a positive vibes and funny awesome person from Croatia. I am 28 years old.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#shipModal">Socials</button>
 
 	    <!-- The Modal -->
@@ -351,7 +365,7 @@
               <p class="card-text" style="color:#fefbd8;">My name is Eiradiss (air-uh-dis)! Potty mouthed gamer, here to talk trash and have fun! Variety streamer but I mostly play Dead by Daylight ❤ Come join me for some fun!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#eirModal">Socials</button>
 
 	    <!-- The Modal -->
@@ -403,7 +417,7 @@
               <p class="card-text" style="color:#fefbd8;">I play mostly Fortnite from Chicago, IL. I also stream other games, come hang out?</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#skyModal">Socials</button>
 
 	    <!-- The Modal -->
@@ -455,7 +469,7 @@
               <p class="card-text" style="color:#fefbd8;">Im a 31 year old mother of 3 boys and I just love to rage on Call of Duty. I love to play with viewers. Just do !activision to add me. I smoke and drink so come hang out</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#shelbyModal">Socials</button>
 
 
@@ -507,7 +521,7 @@
               <p class="card-text" style="color:#fefbd8;">Thank you</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewtemp.html'">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" onclick="window.location.href='viewbio.html'">View Bio</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary" style="color:#fefbd8;" data-bs-toggle="modal" data-bs-target="#testModal">Socials</button>
 
 	    <!-- The Modal -->
@@ -517,7 +531,7 @@
 
       			<!-- Modal Header -->
       			<div class="modal-header">
-        		  <h4 class="modal-title">Socials'</h4>
+        		  <h4 class="modal-title">iWarriors Socials'</h4>
         		  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       			</div>
 
@@ -558,9 +572,7 @@
   </div>
 </footer>
 
-
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-
       
   </body>
 </html>
