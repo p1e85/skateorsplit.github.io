@@ -22,4 +22,5 @@ function myFunction() {
 
 
   document.getElementById("featuredContent").innerHTML = rand;
+  
 }
