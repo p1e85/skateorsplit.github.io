@@ -50,10 +50,10 @@
 <main>
 
   <section style="color:#fefbd8;" class="text-center container">
-    <div class="row py-lg-5">
+    <div class="row py-lg-5 py-4">
       <div class="col-lg-6 col-md-8 mx-auto">
   
-          <a href="#" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#featuredModal">Featured Streamer</a>
+          <a href="#" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#featuredModal" onclick="myFunction()">Featured Streamer</a>
 
 	    <!-- The Modal -->
 	    <div class="modal" id="featuredModal">
@@ -68,13 +68,7 @@
 
       			<!-- Modal body -->
       			<div class="modal-body">
-				<h1 style="color:#36486b;">0h_ye5_d4ddy</h1>
-				<iframe
-    					src="https://player.twitch.tv/?channel=0h_ye5_d4ddy&parent=www.skateorsplit.com&autoplay=true&muted=true"
-    					height="225"
-    					width="100%"
-    					allowfullscreen="<allowfullscreen>">
-				</iframe>
+				<h1 id="featuredContent" style="color:#36486b;">content here</h1>
       			</div>
 
     		  </div>
@@ -90,7 +84,7 @@
 
   <div class="album py-5" style="background-color:#36486b;">
     <div class="container">
-	<h1 style="color:#fefbd8;">Caspro_xv</h1>
+	<h1 style="color:#fefbd8;">Caspro_XV</h1>
 
       <div class="row row-cols-1 row-cols-lg-1 g-3 py-4">
         <div class="col">
@@ -153,7 +147,8 @@
 </footer>
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-	  <script src="https://kit.fontawesome.com/e5fbed3b4c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e5fbed3b4c.js" crossorigin="anonymous"></script>
+    <script src="assets/rand.js"></script>
       
   </body>
 </html>
