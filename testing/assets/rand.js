@@ -1,10 +1,10 @@
 var casFeat = '<iframe src="https://player.twitch.tv/?video=v913456125&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var daddyFeat = '<iframe src="https://player.twitch.tv/?video=v1108705814&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
-var eirFeat = '<iframe src="https://player.twitch.tv/embed?clip=EagerAssiduousSushiBuddhaBar-gRimpZBSFn_UHgsG&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
-var kralkFeat = '<iframe src="https://player.twitch.tv/embed?clip=FlirtyInterestingArmadilloFeelsBadMan-0pA31RU8DfzC8y-T&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
+var eirFeat = '<iframe src="https://clip.twitch.tv/embed?clip=EagerAssiduousSushiBuddhaBar-gRimpZBSFn_UHgsG&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
+var kralkFeat = '<iframe src="https://clip.twitch.tv/embed?clip=FlirtyInterestingArmadilloFeelsBadMan-0pA31RU8DfzC8y-T&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var p1Feat = '<iframe src="https://player.twitch.tv/?video=v1218012018&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
-var shelbyFeat = '<iframe src="https://player.twitch.tv/embed?clip=HungrySpookyCougarDeIlluminati-JG-vgKszrWAvjLqi&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
-var shipFeat = '<iframe src="https://player.twitch.tv/embed?clip=CulturedCulturedHyenaDancingBanana-Exd5W0ju5qrYW8R_&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
+var shelbyFeat = '<iframe src="https://clip.twitch.tv/embed?clip=HungrySpookyCougarDeIlluminati-JG-vgKszrWAvjLqi&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
+var shipFeat = '<iframe src="https://clip.twitch.tv/embed?clip=CulturedCulturedHyenaDancingBanana-Exd5W0ju5qrYW8R_&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var skyFeat = '<iframe src="https://player.twitch.tv/?video=v1057407054&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 var testFeat = '<iframe src="https://player.twitch.tv/?video=v1108705814&parent=www.skateorsplit.com&autoplay=true" height="500" width="100%" allowfullscreen="true"></iframe>';
 
