@@ -1,4 +1,4 @@
-﻿header {
+header {
 	background-color:black;
 
 }
@@ -13,4 +13,25 @@ footer {
 	background-color:#00C6FF;
 	color: black;
 
+}
+
+.textformat {
+	text-align: justify;
+	text-align-last: center;
+	line-height: 0.8;
+}
+
+.darksect {
+	background-color:black;
+	color: white;
+
+}
+
+.textColorBlack {
+	color:black;
+
+}
+
+.font {
+	font-family: "Lucida Console", "Courier New", monospace;
 }
