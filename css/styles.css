@@ -39,3 +39,7 @@ footer {
 .redFont {
 	color:red;
 }
+
+.imgBorder {
+	border-radius: 8px;
+}
